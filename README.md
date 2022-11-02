@@ -1,3 +1,22 @@
+
+# City Tap
+
+Community-driven app that assists you in 
+learning about a new city. 
+
+# Problem space
+City Tap helps users learn about a new city by alerts users of places with heavy foot traffic, popular locations and peoples city 
+routines. 
+
+# Features
+- Get alerts of high traffic areas
+- Write notes and add images on locations
+- Rate venues based on Cost, Ambiance and Convenience 
+- See your most frequented locations
+- Take a quiz to match yourself with the best activities/venues 
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
