@@ -1,4 +1,3 @@
-
 # City Tap
 
 Community-driven app that assists you in 
@@ -21,8 +20,35 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+Runs the app in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
+The page will reload when you make changes.
 You may also see any lint errors in the console.
+
+# Building the login screen with React and Bootstrap
+Require users to register to ue certain features and view specific pages. 
+- [ ] Set up Routes
+- [ ] Create Login Form
+- [ ] Modify App.css to include styling
+- [ ] Modify Auth.js component and add signup form 
+- [ ] Use useState to change between signing in and singning up
+
+Installing bootstrap
+### `npm install –save bootstrap`
+
+Install Router Dom
+### `npm install –save bootstrap`
+
+# API and session management 
+- [ ] use SuperTokens
+
+# Add a Map and Markers to a React Application
+- [ ] Integrate @googlemaps/react-wrapper 
+- [ ] Wrap child components that depend on Maps API
+- [ ] Add map component (May need useRef, useStare and useEffect)
+- [ ] Link map and application state (onClick and onIdle)
+
+
+Install Router Dom
+### `npm install @googlemaps/react-wrapper`
