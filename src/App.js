@@ -30,7 +30,7 @@ function App() {
         const userData = userDatabase.find((user) => user.username === username.value);
 
         if (userData) {
-            if (userData.password !== pass.value) {
+            if (userData.password !== password.value) {
                 setErrorMessages({ name: "password", message: errors.pass });
             } else {
                 setIsSubmitted(true);
