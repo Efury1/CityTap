@@ -52,12 +52,12 @@ function App() {
             <form onSubmit={handleSubmit}>
                 <div className="input-container">
                     <label>Username </label>
-                    <input type="text" name="username" required />
+                    <input type="text" name="username" placeholder="Enter username" required />
                     {renderErrorMessage("username")}
                 </div>
                 <div className="input-container">
                     <label>Password </label>
-                    <input type="password" name="password" required />
+                    <input type="password" name="password" placeholder="Enter password" required />
                     {renderErrorMessage("password")}
                 </div>
                 <div className="button-container">
