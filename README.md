@@ -42,6 +42,9 @@ The react-router-dom package
 
 Install frontenbed framework for components
 
+### `npm install --save @react-google-maps/api`
+
+Add google maps API
 
 # Building the login screen with React and Bootstrap
 Require users to register to ue certain features and view specific pages. 
