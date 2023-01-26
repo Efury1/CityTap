@@ -7,12 +7,15 @@ learning about a new city.
 City Tap helps users learn about a new city by alerts users of places with heavy foot traffic, popular locations and peoples city 
 routines. 
 
+
 # Features
 - Get alerts of high traffic areas
 - Write notes and add images on locations
 - Rate venues based on Cost, Ambiance and Convenience 
 - See your most frequented locations
 - Take a quiz to match yourself with the best activities/venues 
+- Add favourite places
+
 
 ## Available Scripts
 
@@ -58,8 +61,14 @@ Install Router Dom
 
 
 
+# Home Page
+Set up of Homepagge
+- [ ] Add Nav Bar
+- [ ] Include googlemaps on screen 
+
+
 # Building the login screen with React and Bootstrap
-Require users to register to ue certain features and view specific pages. 
+Require users to register to gain access to certain features and view specific pages. 
 - [ ] Set up Routes
 - [ ] Create Login Form
 - [ ] Modify App.css to include styling
