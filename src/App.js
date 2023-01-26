@@ -3,6 +3,7 @@ import "./styles.css";
 import {
   Routes,
   Route,
+  BrowserRouter,
 } from "react-router-dom";
   
 // import home component
@@ -77,8 +78,14 @@ function App() {
     return (
         <div className="app">
             <div className="login-form">
-                <div className="title">Sign In</div>
-                {isSubmitted ? <Route exact path="/components/:Home" component={Home} /> : renderForm}
+            {isSubmitted ?
+              <BrowserRouter>
+              <Routes>
+              <Route path="/" element={<Home />}>
+              </Route>
+              </Routes>
+              </BrowserRouter>
+              : renderForm}
             </div>
         </div>
     );
