@@ -1,6 +1,12 @@
 import React, { useState } from "react";
 import "./styles.css";
-import { redirect } from "react-router-dom";
+import {
+  Routes,
+  Route,
+} from "react-router-dom";
+  
+// import home component
+import Home from "./components/Home"
 
 function App() {
     const [errorMessages, setErrorMessages] = useState({});
@@ -72,7 +78,7 @@ function App() {
         <div className="app">
             <div className="login-form">
                 <div className="title">Sign In</div>
-                {isSubmitted ? <Route path="/components/Home"/> : renderForm}
+                {isSubmitted ? <Route exact path="/components/:Home" component={Home} /> : renderForm}
             </div>
         </div>
     );

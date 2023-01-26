@@ -26,6 +26,23 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.
 You may also see any lint errors in the console.
 
+### `npm install --global yarn`
+
+Install Yarn through npm package manager. Run to install.
+
+### `yarn start`
+
+Run application
+
+### `yarn add react-router-dom`
+
+The react-router-dom package
+
+### `yarn add bootstrap`
+
+Install frontenbed framework for components
+
+
 # Building the login screen with React and Bootstrap
 Require users to register to ue certain features and view specific pages. 
 - [ ] Set up Routes
