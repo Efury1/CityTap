@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./styles.css";
+import { redirect } from "react-router-dom";
 
 function App() {
     const [errorMessages, setErrorMessages] = useState({});
@@ -48,10 +49,10 @@ function App() {
     
     
     const renderForm = (
-        <div className="form">
+        <div role="form" className="form">
             <form onSubmit={handleSubmit}>
                 <div className="input-container">
-                    <label>Username </label>
+                    <label for="username">Username </label>
                     <input type="text" name="username" placeholder="Enter username" required />
                     {renderErrorMessage("username")}
                 </div>
@@ -71,7 +72,7 @@ function App() {
         <div className="app">
             <div className="login-form">
                 <div className="title">Sign In</div>
-                {isSubmitted ? <div>User is successfully logged in</div> : renderForm}
+                {isSubmitted ? <Route path="/components/Home"/> : renderForm}
             </div>
         </div>
     );
