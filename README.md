@@ -46,6 +46,18 @@ Install frontenbed framework for components
 
 Add google maps API
 
+Installing bootstrap
+### `npm install –save bootstrap`
+
+Install Router Dom
+### `npm install –save bootstrap`
+
+
+Install Router Dom
+### `npm install @googlemaps/react-wrapper`
+
+
+
 # Building the login screen with React and Bootstrap
 Require users to register to ue certain features and view specific pages. 
 - [ ] Set up Routes
@@ -54,21 +66,14 @@ Require users to register to ue certain features and view specific pages.
 - [ ] Modify Auth.js component and add signup form 
 - [ ] Use useState to change between signing in and singning up
 
-Installing bootstrap
-### `npm install –save bootstrap`
-
-Install Router Dom
-### `npm install –save bootstrap`
-
-# API and session management 
-- [ ] use SuperTokens
-
 # Add a Map and Markers to a React Application
 - [ ] Integrate @googlemaps/react-wrapper 
 - [ ] Wrap child components that depend on Maps API
 - [ ] Add map component (May need useRef, useStare and useEffect)
 - [ ] Link map and application state (onClick and onIdle)
 
+# API and session management 
+- [ ] use SuperTokens
 
-Install Router Dom
-### `npm install @googlemaps/react-wrapper`
+
+
