@@ -6,7 +6,7 @@ class Home extends Component {
     return (
         <div>
             <input type="text" placeholder="Search Place"/>
-            <Button></Button>
+            <Button>Place</Button>
         </div>
     );
   }

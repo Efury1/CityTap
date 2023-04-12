@@ -1,6 +1,8 @@
 ﻿import React from 'react';
 
-/*Button component */
+/*Button component 
+* Pass in custom title
+* */
 const buttonStyle = {
     margin: '10px 0'
 };
