@@ -3,6 +3,23 @@
   background-color: white;
 }
 
+.html {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+.header {
+  color: white;
+  text-align: center;
+  padding: 3rem;
+  background-color: black;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
 .box {
   border: 5px solid darkblue;
   height: 150px;
