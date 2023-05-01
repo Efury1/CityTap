@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useMemo } from "react";
 import "./styles.css";
 import {
   Routes,
   Route,
   BrowserRouter,
 } from "react-router-dom";
+import GoogleMapComponent from "./components/googleMap"
   
 // import home component
 import Home from "./components/Home"

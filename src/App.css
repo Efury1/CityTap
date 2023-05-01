@@ -3,6 +3,12 @@
   background-color: white;
 }
 
+.box {
+  border: 5px solid darkblue;
+  height: 150px;
+  width: 500px;
+}
+    
 .Auth-form-container {
   display: flex;
   justify-content: center;
@@ -12,7 +18,7 @@
 }
 
 .Auth-form {
-  width: 420px;
+  width: 700px;
   box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
   padding-top: 30px;
   padding-bottom: 20px;
@@ -38,3 +44,4 @@ label {
   font-weight: 600;
   color: rgb(34, 34, 34);
 }
+

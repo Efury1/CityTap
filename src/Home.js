@@ -5,6 +5,7 @@ const Home = () => {
     return (
         <div>
             <h1>Welcome to City Tap</h1>
+            <GoogleMapComponent></GoogleMapComponent>
         </div>
     );
 };
